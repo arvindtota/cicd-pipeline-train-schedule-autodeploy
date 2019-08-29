@@ -80,7 +80,7 @@
 				},
 				{
 					"plan": "Hybrid Network",
-					"status": "SDWAN",
+					"price": "SDWAN",
 					"lines": "For businesses that use data-heavy applications we apply SmartWAN",
 					"features": "optimizes your network to ensure your most important calls, videos and data have dedicated bandwidth and high availability."
 				}
@@ -97,7 +97,7 @@
 				},
 				{
 					"plan": "Hybrid Network",
-					"status": "Voice",
+					"price": "Voice",
 					"lines": "Chat",
 					"features": "Video"
 				}
