@@ -1,84 +1,105 @@
 {
 	"trains": [
 		{
-			"name": "Hogwarts Express",
+			"name": "Business Cloud Mobile",
 			"stops": [
 				{
-					"station": "Sycamore",
-					"status": "ON-TIME",
-					"arrival": "12:00pm",
-					"departure": "12:10pm"
+					"plan": "Mobile Silver",
+					"price": "$19.99 per month/per line",
+					"lines": "1-5 lines",
+					"features": "Mobile and Desktop app, unlimited text and call, team messaging"
 				},
 				{
-					"station": "Pine",
-					"status": "ON-TIME",
-					"arrival": "1:00pm",
-					"departure": "1:10pm"
+					"plan": "Mobile Gold",
+					"price": "$17.99 per month/per line",
+					"lines": "6-25 lines",
+					"features": "Mobile and Desktop app, unlimited text and call, team messaging"
+				}
+				{
+					"plan": "Mobile Diamond",
+					"price": "$14.99 per month/per line",
+					"lines": "25+ lines",
+					"features": "Mobile and Desktop app, unlimited text and call, team messaging"
 				}
 			]
 		},
 		{
-			"name": "Flying Scotsman",
+			"name": "Business Cloud Premium",
 			"stops": [
 				{
-					"station": "Pine",
-					"status": "ON-TIME",
-					"arrival": "12:00pm",
-					"departure": "12:10pm"
+					"plan": "Premium Silver",
+					"price": "$29.99 per month/per line",
+					"lines": "1-5 lines",
+					"features": "Mobile and Desktop app, unlimited text and call, team messaging, Multi-level Auto Attendant, Video Conferencing, chat and file sharing"
 				},
 				{
-					"station": "Sycamore",
-					"status": "DELAYED",
-					"arrival": "1:00pm",
-					"departure": "1:10pm",
-					"delayedArrival": "1:00pm",
-					"delayedDeparture": "1:17pm"
+					"plan": "Premium Gold",
+					"price": "$27.99 per month/per line",
+					"lines": "6-25 lines",
+					"features": "Mobile and Desktop app, unlimited text and call, team messaging, Multi-level Auto Attendant, Video Conferencing, chat and file sharing"
+				}
+				{
+					"plan": "Premium Diamond",
+					"price": "$24.99 per month/per line",
+					"lines": "25+ lines",
+					"features": "Mobile and Desktop app, unlimited text and call, team messaging, Multi-level Auto Attendant, Video Conferencing, chat and file sharing"
 				}
 			]
 		},
 		{
-			"name": "Orient Express",
+			"name": "Business Cloud Advanced",
 			"stops": [
 				{
-					"station": "Sycamore",
-					"status": "ON-TIME",
-					"arrival": "12:00pm",
-					"departure": "12:10pm"
+					"plan": "Advanced Silver",
+					"price": "$39.99 per month/per line",
+					"lines": "1-5 lines",
+					"features": "Mobile and Desktop app, unlimited text and call, team messaging, Multi-level Auto Attendant, Video Conferencing, chat and file sharing, Call Recording On demand, CRM integrations, call group, visual voicemail"
 				},
 				{
-					"station": "Cypress",
-					"status": "DELAYED",
-					"arrival": "1:00pm",
-					"departure": "1:10pm",
-					"delayedArrival": "1:07pm",
-					"delayedDeparture": "1:17pm"
+					"plan": "Advanced Gold",
+					"price": "$37.99 per month/per line",
+					"lines": "6-25 lines",
+					"features": "Mobile and Desktop app, unlimited text and call, team messaging, Multi-level Auto Attendant, Video Conferencing, chat and file sharing, Call Recording On demand, CRM integrations, call group, visual voicemail"
+				}
+				{
+					"plan": "Advanced Diamond",
+					"price": "$34.99 per month/per line",
+					"lines": "25+ lines",
+					"features": "Mobile and Desktop app, unlimited text and call, team messaging, Multi-level Auto Attendant, Video Conferencing, chat and file sharing, Call Recording On demand, CRM integrations, call group, visual voicemail"
 				}
 			]
 		},
 		{
-			"name": "Golden Arrow",
+			"name": "Enterprise",
 			"stops": [
 				{
-					"station": "Cypress",
-					"status": "ON-TIME",
-					"arrival": "12:00pm",
-					"departure": "12:10pm"
+					"plan": "Details",
+					"price": "99.999% uptime reliablity*",
+					"lines": "Easy-to-access omnichannel view of your customers",
+					"features": "A robust and scalable system"
 				},
 				{
-					"station": "Pine",
-					"status": "DELAYED",
-					"arrival": "1:00pm",
-					"departure": "1:10pm",
-					"delayedArrival": "1:07pm",
-					"delayedDeparture": "1:17pm"
+					"plan": "Hybrid Network",
+					"status": "SDWAN",
+					"lines": "For businesses that use data-heavy applications we apply SmartWAN",
+					"features": "optimizes your network to ensure your most important calls, videos and data have dedicated bandwidth and high availability."
+				}
+			]
+		},
+		{
+			"name": "APIs",
+			"stops": [
+				{
+					"plan": "API",
+					"price": "Text Messaging",
+					"lines": "Phone Number Verification",
+					"features": "Phone Number Insights"
 				},
 				{
-					"station": "Hickory",
-					"status": "DELAYED",
-					"arrival": "1:00pm",
-					"departure": "1:10pm",
-					"delayedArrival": "1:07pm",
-					"delayedDeparture": "1:17pm"
+					"plan": "Hybrid Network",
+					"status": "Voice",
+					"lines": "Chat",
+					"features": "Video"
 				}
 			]
 		}
