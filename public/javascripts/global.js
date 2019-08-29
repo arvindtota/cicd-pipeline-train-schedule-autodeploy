@@ -24,24 +24,24 @@ function populateTrains() {
 function showTrainInfo(event) {
 	event.preventDefault();
 	var train = trains[$(this).attr('rel')];
-	var tableContent = '<table class="table"><tr><th>Station</th></tr>';
+	var tableContent = '<table class="table"><tr><th>Plan</th></tr>';
 	$.each(train.stops, function(index){
       tableContent += '<tr>';
-      tableContent += '<td><strong>' + this.station + '</strong></td>';
-      var onTime = (this.status == 'ON-TIME');
-      tableContent += '<td style="color: ' + ((onTime) ? 'green' : 'red') + '">' + this.status + '</td>';
-      tableContent += '<td>Arrives ';
-      if (onTime || this.arrival == this.delayedArrival) {
-        tableContent += this.arrival;
+      tableContent += '<td><strong>' + this.plan + '</strong></td>';
+      var onTime = (this.price == 'ON-TIME');
+      tableContent += '<td style="color: ' + ((onTime) ? 'green' : 'red') + '">' + this.price + '</td>';
+      tableContent += '<td>Lines ';
+      if (onTime || this.lines == this.delayedLines) {
+        tableContent += this.lines;
       } else {
-        tableContent += '<span style="text-decoration: line-through">' + this.arrival + '</span> ' + this.delayedArrival;
+        tableContent += '<span style="text-decoration: line-through">' + this.lines + '</span> ' + this.delayedLines;
       }
       tableContent += '</td>';
-      tableContent += '<td>Departs ';
-      if (onTime || this.departure == this.delayedDeparture) {
-        tableContent += this.departure;
+      tableContent += '<td>Features ';
+      if (onTime || this.features == this.delayedFeatures) {
+        tableContent += this.features;
       } else {
-        tableContent += '<span style="text-decoration: line-through">' + this.departure + '</span> ' + this.delayedDeparture;
+        tableContent += '<span style="text-decoration: line-through">' + this.features + '</span> ' + this.delayedFeatures;
       }
       tableContent += '</td>';
       tableContent += '</tr>';
